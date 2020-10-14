@@ -1,0 +1,2 @@
+# outputs
+The output folder is where you save new datasets, figures, and possibly text in projects where it is generated, e.g. vizzes, charts, data tables, our briefs and reports (stable/final versions).

@@ -1,0 +1,73 @@
+"Notes"	"Year"	"Year Code"	Deaths	Population	Crude Rate	Age Adjusted Rate
+	"1999"	"1999"	2192	1338370	163.8	186.9
+	"2000"	"2000"	2085	1337726	155.9	175.3
+	"2001"	"2001"	1966	1344528	146.2	163.1
+	"2002"	"2002"	1977	1354638	145.9	161.1
+	"2003"	"2003"	1875	1365146	137.3	150.6
+	"2004"	"2004"	1826	1377699	132.5	144.0
+	"2005"	"2005"	1883	1386429	135.8	145.9
+	"2006"	"2006"	1415	1040195	136.0	134.7
+	"2007"	"2007"	1312	1096365	119.7	119.3
+	"2008"	"2008"	1348	1135831	118.7	119.0
+	"2009"	"2009"	1329	1167842	113.8	112.9
+	"2010"	"2010"	1249	1189866	105.0	102.8
+	"2011"	"2011"	1189	1212873	98.0	94.1
+	"2012"	"2012"	1159	1227096	94.5	89.2
+	"2013"	"2013"	1206	1240977	97.2	89.5
+	"2014"	"2014"	1166	1251849	93.1	84.2
+	"2015"	"2015"	1038	1262888	82.2	73.7
+	"2016"	"2016"	1109	1268883	87.4	76.2
+	"2017"	"2017"	1161	1275762	91.0	77.9
+	"2018"	"2018"	1091	1270399	85.9	71.2
+"Total"			29576	25145362	117.6	116.6
+"---"
+"Dataset: Underlying Cause of Death, 1999-2018"
+"Query Parameters:"
+"ICD-10 Codes: I20-I25 (Ischaemic heart diseases)"
+"States: Jefferson Parish, LA (22051); Orleans Parish, LA (22071); Plaquemines Parish, LA (22075); St. Bernard Parish, LA"
+"(22087); St. Charles Parish, LA (22089); St. James Parish, LA (22093); St. John the Baptist Parish, LA (22095); St. Tammany"
+"Parish, LA (22103)"
+"Group By: Year"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Standard Population: 2000 U.S. Std. Population"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/ucd.html for more information."
+"---"
+"Query Date: Feb 19, 2020 2:53:01 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. Underlying Cause of Death"
+"1999-2018 on CDC WONDER Online Database, released in 2020. Data are from the Multiple Cause of Death Files, 1999-2018, as"
+"compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed"
+"at http://wonder.cdc.gov/ucd-icd10.html on Feb 19, 2020 2:53:01 PM"
+"---"
+Caveats:
+"1. As of April 3, 2017, the underlying cause of death has been revised for 125 deaths in 2014. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#2014-Revision."
+"2. The populations used to calculate standard age-adjusted rates are documented here: More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#2000 Standard Population."
+"3. The method used to calculate age-adjusted rates is documented here: More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#Age-Adjusted Rates."
+"4. Deaths for persons of unknown age are included in counts and crude rates, but are not included in age-adjusted rates."
+"5. The population figures for year 2018 are bridged-race estimates of the July 1 resident population, from the Vintage 2018"
+"postcensal series released by NCHS on June 25, 2019. The population figures for year 2017 are bridged-race estimates of the July"
+"1 resident population, from the Vintage 2017 postcensal series released by NCHS on June 27, 2018. The population figures for"
+"year 2016 are bridged-race estimates of the July 1 resident population, from the Vintage 2016 postcensal series released by NCHS"
+"on June 26, 2017. The population figures for year 2015 are bridged-race estimates of the July 1 resident population, from the"
+"Vintage 2015 postcensal series released by NCHS on June 28, 2016. The population figures for year 2014 are bridged-race"
+"estimates of the July 1 resident population, from the Vintage 2014 postcensal series released by NCHS on June 30, 2015. The"
+"population figures for year 2013 are bridged-race estimates of the July 1 resident population, from the Vintage 2013 postcensal"
+"series released by NCHS on June 26, 2014. The population figures for year 2012 are bridged-race estimates of the July 1 resident"
+"population, from the Vintage 2012 postcensal series released by NCHS on June 13, 2013. The population figures for year 2011 are"
+"bridged-race estimates of the July 1 resident population, from the Vintage 2011 postcensal series released by NCHS on July 18,"
+"2012. Population figures for 2010 are April 1 Census counts. The population figures for years 2001 - 2009 are bridged-race"
+"estimates of the July 1 resident population, from the revised intercensal county-level 2000 - 2009 series released by NCHS on"
+"October 26, 2012. Population figures for 2000 are April 1 Census counts. Population figures for 1999 are from the 1990-1999"
+"intercensal series of July 1 estimates. Population figures for the infant age groups are the number of live births."
+"<br/><b>Note:</b> Rates and population figures for years 2001 - 2009 differ slightly from previously published reports, due to"
+"use of the population estimates which were available at the time of release."
+"6. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/ucd.html#Age Group."

@@ -1,0 +1,211 @@
+"Notes"	"Year"	"Year Code"	"County"	"County Code"	Deaths	Population	Crude Rate	Age Adjusted Rate
+	"1999"	"1999"	"Jefferson Parish, LA"	"22051"	4059	457571	887.1	975.7
+	"1999"	"1999"	"Plaquemines Parish, LA"	"22075"	217	26689	813.1	1070.4
+	"1999"	"1999"	"St. Bernard Parish, LA"	"22087"	741	67659	1095.2	1128.2
+	"1999"	"1999"	"St. Charles Parish, LA"	"22089"	337	47907	703.4	988.7
+	"1999"	"1999"	"St. James Parish, LA"	"22093"	171	21221	805.8	918.0
+	"1999"	"1999"	"St. John the Baptist Parish, LA"	"22095"	321	42865	748.9	1119.8
+	"1999"	"1999"	"St. Tammany Parish, LA"	"22103"	1381	188947	730.9	925.0
+"Total"	"1999"	"1999"			7227	852859	847.4	984.6
+	"2000"	"2000"	"Jefferson Parish, LA"	"22051"	4083	455466	896.4	971.1
+	"2000"	"2000"	"Plaquemines Parish, LA"	"22075"	203	26757	758.7	1001.8
+	"2000"	"2000"	"St. Bernard Parish, LA"	"22087"	717	67229	1066.5	1077.2
+	"2000"	"2000"	"St. Charles Parish, LA"	"22089"	336	48072	699.0	957.0
+	"2000"	"2000"	"St. James Parish, LA"	"22093"	191	21216	900.3	1006.7
+	"2000"	"2000"	"St. John the Baptist Parish, LA"	"22095"	300	43044	697.0	1016.9
+	"2000"	"2000"	"St. Tammany Parish, LA"	"22103"	1441	191268	753.4	938.5
+"Total"	"2000"	"2000"			7271	853052	852.4	976.1
+	"2001"	"2001"	"Jefferson Parish, LA"	"22051"	4117	453154	908.5	960.4
+	"2001"	"2001"	"Plaquemines Parish, LA"	"22075"	230	27029	850.9	1099.4
+	"2001"	"2001"	"St. Bernard Parish, LA"	"22087"	733	68028	1077.5	1123.5
+	"2001"	"2001"	"St. Charles Parish, LA"	"22089"	315	48461	650.0	891.2
+	"2001"	"2001"	"St. James Parish, LA"	"22093"	189	21291	887.7	989.6
+	"2001"	"2001"	"St. John the Baptist Parish, LA"	"22095"	295	43580	676.9	943.5
+	"2001"	"2001"	"St. Tammany Parish, LA"	"22103"	1487	195622	760.1	928.0
+"Total"	"2001"	"2001"			7366	857165	859.3	965.8
+	"2002"	"2002"	"Jefferson Parish, LA"	"22051"	4260	453429	939.5	980.1
+	"2002"	"2002"	"Plaquemines Parish, LA"	"22075"	218	27462	793.8	1000.1
+	"2002"	"2002"	"St. Bernard Parish, LA"	"22087"	768	68964	1113.6	1173.5
+	"2002"	"2002"	"St. Charles Parish, LA"	"22089"	322	49117	655.6	899.2
+	"2002"	"2002"	"St. James Parish, LA"	"22093"	189	21365	884.6	974.6
+	"2002"	"2002"	"St. John the Baptist Parish, LA"	"22095"	296	43878	674.6	950.5
+	"2002"	"2002"	"St. Tammany Parish, LA"	"22103"	1581	200701	787.7	951.7
+"Total"	"2002"	"2002"			7634	864916	882.6	982.0
+	"2003"	"2003"	"Jefferson Parish, LA"	"22051"	4155	454533	914.1	938.6
+	"2003"	"2003"	"Plaquemines Parish, LA"	"22075"	230	28169	816.5	1020.7
+	"2003"	"2003"	"St. Bernard Parish, LA"	"22087"	802	69621	1152.0	1240.4
+	"2003"	"2003"	"St. Charles Parish, LA"	"22089"	371	49338	752.0	986.7
+	"2003"	"2003"	"St. James Parish, LA"	"22093"	181	21274	850.8	921.1
+	"2003"	"2003"	"St. John the Baptist Parish, LA"	"22095"	345	44316	778.5	1085.2
+	"2003"	"2003"	"St. Tammany Parish, LA"	"22103"	1553	205708	755.0	897.4
+"Total"	"2003"	"2003"			7637	872959	874.8	961.9
+	"2004"	"2004"	"Jefferson Parish, LA"	"22051"	4122	456602	902.8	924.2
+	"2004"	"2004"	"Plaquemines Parish, LA"	"22075"	225	29390	765.6	978.0
+	"2004"	"2004"	"St. Bernard Parish, LA"	"22087"	806	70547	1142.5	1255.2
+	"2004"	"2004"	"St. Charles Parish, LA"	"22089"	326	49939	652.8	837.4
+	"2004"	"2004"	"St. James Parish, LA"	"22093"	189	21229	890.3	965.1
+	"2004"	"2004"	"St. John the Baptist Parish, LA"	"22095"	364	44822	812.1	1053.2
+	"2004"	"2004"	"St. Tammany Parish, LA"	"22103"	1630	211405	771.0	904.6
+"Total"	"2004"	"2004"			7662	883934	866.8	946.7
+	"2005"	"2005"	"Jefferson Parish, LA"	"22051"	4382	456554	959.8	962.9
+	"2005"	"2005"	"Plaquemines Parish, LA"	"22075"	228	29558	771.4	968.8
+	"2005"	"2005"	"St. Bernard Parish, LA"	"22087"	839	71300	1176.7	1340.8
+	"2005"	"2005"	"St. Charles Parish, LA"	"22089"	378	50670	746.0	963.0
+	"2005"	"2005"	"St. James Parish, LA"	"22093"	171	21399	799.1	854.5
+	"2005"	"2005"	"St. John the Baptist Parish, LA"	"22095"	343	45296	757.2	1008.1
+	"2005"	"2005"	"St. Tammany Parish, LA"	"22103"	1812	217358	833.6	967.7
+"Total"	"2005"	"2005"			8153	892135	913.9	988.0
+	"2006"	"2006"	"Jefferson Parish, LA"	"22051"	3892	426285	913.0	856.6
+	"2006"	"2006"	"Plaquemines Parish, LA"	"22075"	151	22329	676.3	815.2
+	"2006"	"2006"	"St. Bernard Parish, LA"	"22087"	278	16563	1678.4	1427.7
+	"2006"	"2006"	"St. Charles Parish, LA"	"22089"	372	52453	709.2	882.5
+	"2006"	"2006"	"St. James Parish, LA"	"22093"	213	21964	969.8	1025.8
+	"2006"	"2006"	"St. John the Baptist Parish, LA"	"22095"	343	47296	725.2	916.6
+	"2006"	"2006"	"St. Tammany Parish, LA"	"22103"	1750	223133	784.3	830.3
+"Total"	"2006"	"2006"			6999	810023	864.0	867.1
+	"2007"	"2007"	"Jefferson Parish, LA"	"22051"	4005	432683	925.6	858.9
+	"2007"	"2007"	"Plaquemines Parish, LA"	"22075"	178	22709	783.8	929.3
+	"2007"	"2007"	"St. Bernard Parish, LA"	"22087"	228	23613	965.6	972.3
+	"2007"	"2007"	"St. Charles Parish, LA"	"22089"	363	52765	688.0	852.5
+	"2007"	"2007"	"St. James Parish, LA"	"22093"	190	22164	857.2	898.4
+	"2007"	"2007"	"St. John the Baptist Parish, LA"	"22095"	337	47386	711.2	898.5
+	"2007"	"2007"	"St. Tammany Parish, LA"	"22103"	1888	226294	834.3	875.3
+"Total"	"2007"	"2007"			7189	827614	868.6	865.3
+	"2008"	"2008"	"Jefferson Parish, LA"	"22051"	3998	431759	926.0	848.5
+	"2008"	"2008"	"Plaquemines Parish, LA"	"22075"	191	22677	842.3	1020.8
+	"2008"	"2008"	"St. Bernard Parish, LA"	"22087"	283	28879	980.0	1091.6
+	"2008"	"2008"	"St. Charles Parish, LA"	"22089"	356	52516	677.9	818.6
+	"2008"	"2008"	"St. James Parish, LA"	"22093"	195	22095	882.6	936.1
+	"2008"	"2008"	"St. John the Baptist Parish, LA"	"22095"	411	46811	878.0	1066.4
+	"2008"	"2008"	"St. Tammany Parish, LA"	"22103"	1931	229252	842.3	872.0
+"Total"	"2008"	"2008"			7365	833989	883.1	874.0
+	"2009"	"2009"	"Jefferson Parish, LA"	"22051"	3912	431921	905.7	821.8
+	"2009"	"2009"	"Plaquemines Parish, LA"	"22075"	178	22730	783.1	890.4
+	"2009"	"2009"	"St. Bernard Parish, LA"	"22087"	276	32878	839.5	983.3
+	"2009"	"2009"	"St. Charles Parish, LA"	"22089"	369	52719	699.9	869.6
+	"2009"	"2009"	"St. James Parish, LA"	"22093"	199	22231	895.1	939.8
+	"2009"	"2009"	"St. John the Baptist Parish, LA"	"22095"	383	46336	826.6	1005.5
+	"2009"	"2009"	"St. Tammany Parish, LA"	"22103"	1883	231224	814.4	817.6
+"Total"	"2009"	"2009"			7200	840039	857.1	837.8
+	"2010"	"2010"	"Jefferson Parish, LA"	"22051"	3983	432552	920.8	831.4
+	"2010"	"2010"	"Plaquemines Parish, LA"	"22075"	149	23042	646.6	728.8
+	"2010"	"2010"	"St. Bernard Parish, LA"	"22087"	274	35897	763.3	969.2
+	"2010"	"2010"	"St. Charles Parish, LA"	"22089"	385	52780	729.4	867.4
+	"2010"	"2010"	"St. James Parish, LA"	"22093"	189	22102	855.1	868.0
+	"2010"	"2010"	"St. John the Baptist Parish, LA"	"22095"	391	45924	851.4	986.0
+	"2010"	"2010"	"St. Tammany Parish, LA"	"22103"	1893	233740	809.9	797.7
+"Total"	"2010"	"2010"			7264	846037	858.6	832.3
+	"2011"	"2011"	"Jefferson Parish, LA"	"22051"	4010	432640	926.9	825.9
+	"2011"	"2011"	"Plaquemines Parish, LA"	"22075"	187	23628	791.4	859.6
+	"2011"	"2011"	"St. Bernard Parish, LA"	"22087"	311	39558	786.2	988.9
+	"2011"	"2011"	"St. Charles Parish, LA"	"22089"	402	52517	765.5	888.8
+	"2011"	"2011"	"St. James Parish, LA"	"22093"	152	21784	697.8	683.3
+	"2011"	"2011"	"St. John the Baptist Parish, LA"	"22095"	390	45221	862.4	964.5
+	"2011"	"2011"	"St. Tammany Parish, LA"	"22103"	1942	236785	820.2	790.5
+"Total"	"2011"	"2011"			7394	852133	867.7	826.8
+	"2012"	"2012"	"Jefferson Parish, LA"	"22051"	4103	433676	946.1	822.0
+	"2012"	"2012"	"Plaquemines Parish, LA"	"22075"	192	23921	802.6	853.3
+	"2012"	"2012"	"St. Bernard Parish, LA"	"22087"	343	41635	823.8	1039.4
+	"2012"	"2012"	"St. Charles Parish, LA"	"22089"	372	52681	706.1	804.9
+	"2012"	"2012"	"St. James Parish, LA"	"22093"	213	21722	980.6	933.5
+	"2012"	"2012"	"St. John the Baptist Parish, LA"	"22095"	382	44758	853.5	943.9
+	"2012"	"2012"	"St. Tammany Parish, LA"	"22103"	2054	239453	857.8	808.9
+"Total"	"2012"	"2012"			7659	857846	892.8	832.2
+	"2013"	"2013"	"Jefferson Parish, LA"	"22051"	4114	434767	946.3	813.4
+	"2013"	"2013"	"Plaquemines Parish, LA"	"22075"	181	23550	768.6	817.4
+	"2013"	"2013"	"St. Bernard Parish, LA"	"22087"	302	43482	694.5	837.6
+	"2013"	"2013"	"St. Charles Parish, LA"	"22089"	392	52617	745.0	828.6
+	"2013"	"2013"	"St. James Parish, LA"	"22093"	192	21752	882.7	832.4
+	"2013"	"2013"	"St. John the Baptist Parish, LA"	"22095"	373	43761	852.4	901.8
+	"2013"	"2013"	"St. Tammany Parish, LA"	"22103"	2096	242333	864.9	793.9
+"Total"	"2013"	"2013"			7650	862262	887.2	813.1
+	"2014"	"2014"	"Jefferson Parish, LA"	"22051"	4136	435716	949.2	809.2
+	"2014"	"2014"	"Plaquemines Parish, LA"	"22075"	180	23447	767.7	772.4
+	"2014"	"2014"	"St. Bernard Parish, LA"	"22087"	329	44409	740.8	907.1
+	"2014"	"2014"	"St. Charles Parish, LA"	"22089"	450	52745	853.2	928.7
+	"2014"	"2014"	"St. James Parish, LA"	"22093"	209	21638	965.9	853.2
+	"2014"	"2014"	"St. John the Baptist Parish, LA"	"22095"	408	43745	932.7	924.8
+	"2014"	"2014"	"St. Tammany Parish, LA"	"22103"	2188	245829	890.0	804.8
+"Total"	"2014"	"2014"			7900	867529	910.6	821.2
+	"2015"	"2015"	"Jefferson Parish, LA"	"22051"	4043	436275	926.7	773.8
+	"2015"	"2015"	"Plaquemines Parish, LA"	"22075"	176	23495	749.1	758.5
+	"2015"	"2015"	"St. Bernard Parish, LA"	"22087"	358	45408	788.4	944.6
+	"2015"	"2015"	"St. Charles Parish, LA"	"22089"	390	52812	738.5	788.9
+	"2015"	"2015"	"St. James Parish, LA"	"22093"	177	21567	820.7	727.1
+	"2015"	"2015"	"St. John the Baptist Parish, LA"	"22095"	382	43626	875.6	869.4
+	"2015"	"2015"	"St. Tammany Parish, LA"	"22103"	2111	250088	844.1	754.5
+"Total"	"2015"	"2015"			7637	873271	874.5	776.1
+	"2016"	"2016"	"Jefferson Parish, LA"	"22051"	4181	436523	957.8	793.0
+	"2016"	"2016"	"Plaquemines Parish, LA"	"22075"	176	23464	750.1	734.5
+	"2016"	"2016"	"St. Bernard Parish, LA"	"22087"	378	45688	827.4	922.8
+	"2016"	"2016"	"St. Charles Parish, LA"	"22089"	407	52923	769.0	781.3
+	"2016"	"2016"	"St. James Parish, LA"	"22093"	227	21557	1053.0	901.0
+	"2016"	"2016"	"St. John the Baptist Parish, LA"	"22095"	412	43631	944.3	905.1
+	"2016"	"2016"	"St. Tammany Parish, LA"	"22103"	2122	253602	836.7	736.9
+"Total"	"2016"	"2016"			7903	877388	900.7	785.3
+	"2017"	"2017"	"Jefferson Parish, LA"	"22051"	4379	439036	997.4	814.0
+	"2017"	"2017"	"Plaquemines Parish, LA"	"22075"	201	23348	860.9	828.2
+	"2017"	"2017"	"St. Bernard Parish, LA"	"22087"	372	46202	805.2	892.6
+	"2017"	"2017"	"St. Charles Parish, LA"	"22089"	429	52749	813.3	839.5
+	"2017"	"2017"	"St. James Parish, LA"	"22093"	218	21367	1020.3	871.1
+	"2017"	"2017"	"St. John the Baptist Parish, LA"	"22095"	422	43441	971.4	975.2
+	"2017"	"2017"	"St. Tammany Parish, LA"	"22103"	2283	256327	890.7	783.7
+"Total"	"2017"	"2017"			8304	882470	941.0	816.5
+	"2018"	"2018"	"Jefferson Parish, LA"	"22051"	4303	434051	991.4	793.8
+	"2018"	"2018"	"Plaquemines Parish, LA"	"22075"	176	23410	751.8	731.9
+	"2018"	"2018"	"St. Bernard Parish, LA"	"22087"	402	46721	860.4	932.5
+	"2018"	"2018"	"St. Charles Parish, LA"	"22089"	432	52879	817.0	809.5
+	"2018"	"2018"	"St. James Parish, LA"	"22093"	199	21037	946.0	775.6
+	"2018"	"2018"	"St. John the Baptist Parish, LA"	"22095"	441	43184	1021.2	1010.1
+	"2018"	"2018"	"St. Tammany Parish, LA"	"22103"	2382	258111	922.9	780.7
+"Total"	"2018"	"2018"			8335	879393	947.8	802.8
+"Total"					151749	17187014	882.9	870.1
+"---"
+"Dataset: Underlying Cause of Death, 1999-2018"
+"Query Parameters:"
+"States: Jefferson Parish, LA (22051); Plaquemines Parish, LA (22075); St. Bernard Parish, LA (22087); St. Charles Parish, LA"
+"(22089); St. James Parish, LA (22093); St. John the Baptist Parish, LA (22095); St. Tammany Parish, LA (22103)"
+"Group By: Year; County"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Standard Population: 2000 U.S. Std. Population"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/ucd.html for more information."
+"---"
+"Query Date: Feb 18, 2020 12:19:00 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. Underlying Cause of Death"
+"1999-2018 on CDC WONDER Online Database, released in 2020. Data are from the Multiple Cause of Death Files, 1999-2018, as"
+"compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed"
+"at http://wonder.cdc.gov/ucd-icd10.html on Feb 18, 2020 12:19:00 PM"
+"---"
+Caveats:
+"1. As of April 3, 2017, the underlying cause of death has been revised for 125 deaths in 2014. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#2014-Revision."
+"2. The populations used to calculate standard age-adjusted rates are documented here: More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#2000 Standard Population."
+"3. The method used to calculate age-adjusted rates is documented here: More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#Age-Adjusted Rates."
+"4. Deaths for persons of unknown age are included in counts and crude rates, but are not included in age-adjusted rates."
+"5. The population figures for year 2018 are bridged-race estimates of the July 1 resident population, from the Vintage 2018"
+"postcensal series released by NCHS on June 25, 2019. The population figures for year 2017 are bridged-race estimates of the July"
+"1 resident population, from the Vintage 2017 postcensal series released by NCHS on June 27, 2018. The population figures for"
+"year 2016 are bridged-race estimates of the July 1 resident population, from the Vintage 2016 postcensal series released by NCHS"
+"on June 26, 2017. The population figures for year 2015 are bridged-race estimates of the July 1 resident population, from the"
+"Vintage 2015 postcensal series released by NCHS on June 28, 2016. The population figures for year 2014 are bridged-race"
+"estimates of the July 1 resident population, from the Vintage 2014 postcensal series released by NCHS on June 30, 2015. The"
+"population figures for year 2013 are bridged-race estimates of the July 1 resident population, from the Vintage 2013 postcensal"
+"series released by NCHS on June 26, 2014. The population figures for year 2012 are bridged-race estimates of the July 1 resident"
+"population, from the Vintage 2012 postcensal series released by NCHS on June 13, 2013. The population figures for year 2011 are"
+"bridged-race estimates of the July 1 resident population, from the Vintage 2011 postcensal series released by NCHS on July 18,"
+"2012. Population figures for 2010 are April 1 Census counts. The population figures for years 2001 - 2009 are bridged-race"
+"estimates of the July 1 resident population, from the revised intercensal county-level 2000 - 2009 series released by NCHS on"
+"October 26, 2012. Population figures for 2000 are April 1 Census counts. Population figures for 1999 are from the 1990-1999"
+"intercensal series of July 1 estimates. Population figures for the infant age groups are the number of live births."
+"<br/><b>Note:</b> Rates and population figures for years 2001 - 2009 differ slightly from previously published reports, due to"
+"use of the population estimates which were available at the time of release."
+"6. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/ucd.html#Age Group."

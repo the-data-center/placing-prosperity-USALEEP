@@ -1,0 +1,23 @@
+Notes about CSVS
+
+Chapter 1 
+
+Both fig_4_dd.chornic and fig5_dd.external use CSV named fig_4_dd.chornic
+filter for COD
+
+Both fig7_middleage and fig8_youngold use fig7_middleage.csv
+filter for Age.Group
+
+Both fig_nola.socDets.[inc/ed] use CSV fig_nolasocDets.csv
+
+fig_metrosComp.dist.LE uses both fig_metrosCompdistLE.csv and fig_metrosCompdistLEmeans.csv
+
+
+Chapter 2
+
+Fig6_ch2_black_0017 uses Fig5_ch2_black7000.csv
+select correct years
+
+Fig4.5_ch2_pov_0017 uses Fig4_ch2_pov_7000.csv
+select correct years
+

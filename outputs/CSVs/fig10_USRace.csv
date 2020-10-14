@@ -1,0 +1,106 @@
+"","Age.Group","Race","Year","Rate"
+"1","15-24 years","Total","2000",79.8
+"2","15-24 years","Total","2002-2004",80.5666666666667
+"3","15-24 years","Total","2005-2007",80.3
+"4","15-24 years","Total","2010",70.5666666666667
+"5","15-24 years","Total","2011-2013",66.3
+"6","15-24 years","Total","2014-2016",69.9666666666667
+"7","15-24 years","Total","2018",72.1
+"8","25-34 years","Total","2000",103.066666666667
+"9","25-34 years","Total","2002-2004",104.8
+"10","25-34 years","Total","2005-2007",107.666666666667
+"11","25-34 years","Total","2010",104.133333333333
+"12","25-34 years","Total","2011-2013",105.4
+"13","25-34 years","Total","2014-2016",118.033333333333
+"14","25-34 years","Total","2018",130.8
+"15","35-44 years","Total","2000",200.133333333333
+"16","35-44 years","Total","2002-2004",200.566666666667
+"17","35-44 years","Total","2005-2007",190.966666666667
+"18","35-44 years","Total","2010",177.166666666667
+"19","35-44 years","Total","2011-2013",171.566666666667
+"20","35-44 years","Total","2014-2016",182.5
+"21","35-44 years","Total","2018",194.95
+"22","45-54 years","Total","2000",423.5
+"23","45-54 years","Total","2002-2004",430.3
+"24","45-54 years","Total","2005-2007",426.566666666667
+"25","45-54 years","Total","2010",414.933333333333
+"26","45-54 years","Total","2011-2013",407.1
+"27","45-54 years","Total","2014-2016",404.766666666667
+"28","45-54 years","Total","2018",398.7
+"29","55-64 years","Total","2000",989.9
+"30","55-64 years","Total","2002-2004",929.733333333333
+"31","55-64 years","Total","2005-2007",882.166666666667
+"32","55-64 years","Total","2010",858.566666666667
+"33","55-64 years","Total","2011-2013",854.533333333333
+"34","55-64 years","Total","2014-2016",876.466666666667
+"35","55-64 years","Total","2018",886.25
+"36","15-24 years","Black, not Hispanic","2000",123.3
+"37","15-24 years","Black, not Hispanic","2002-2004",115.333333333333
+"38","15-24 years","Black, not Hispanic","2005-2007",114.033333333333
+"39","15-24 years","Black, not Hispanic","2010",101.9
+"40","15-24 years","Black, not Hispanic","2011-2013",96.1666666666667
+"41","15-24 years","Black, not Hispanic","2014-2016",104.533333333333
+"42","15-24 years","Black, not Hispanic","2018",109.6
+"43","25-34 years","Black, not Hispanic","2000",192.866666666667
+"44","25-34 years","Black, not Hispanic","2002-2004",193.6
+"45","25-34 years","Black, not Hispanic","2005-2007",189.033333333333
+"46","25-34 years","Black, not Hispanic","2010",167.666666666667
+"47","25-34 years","Black, not Hispanic","2011-2013",160.866666666667
+"48","25-34 years","Black, not Hispanic","2014-2016",170.033333333333
+"49","25-34 years","Black, not Hispanic","2018",185.55
+"50","35-44 years","Black, not Hispanic","2000",369.1
+"51","35-44 years","Black, not Hispanic","2002-2004",347.833333333333
+"52","35-44 years","Black, not Hispanic","2005-2007",319.933333333333
+"53","35-44 years","Black, not Hispanic","2010",277.1
+"54","35-44 years","Black, not Hispanic","2011-2013",260.5
+"55","35-44 years","Black, not Hispanic","2014-2016",272.833333333333
+"56","35-44 years","Black, not Hispanic","2018",295.95
+"57","45-54 years","Black, not Hispanic","2000",793.866666666667
+"58","45-54 years","Black, not Hispanic","2002-2004",769.633333333333
+"59","45-54 years","Black, not Hispanic","2005-2007",722.666666666667
+"60","45-54 years","Black, not Hispanic","2010",638.9
+"61","45-54 years","Black, not Hispanic","2011-2013",591.366666666667
+"62","45-54 years","Black, not Hispanic","2014-2016",581.3
+"63","45-54 years","Black, not Hispanic","2018",585.2
+"64","55-64 years","Black, not Hispanic","2000",1640.73333333333
+"65","55-64 years","Black, not Hispanic","2002-2004",1541.5
+"66","55-64 years","Black, not Hispanic","2005-2007",1430.36666666667
+"67","55-64 years","Black, not Hispanic","2010",1340.53333333333
+"68","55-64 years","Black, not Hispanic","2011-2013",1292.86666666667
+"69","55-64 years","Black, not Hispanic","2014-2016",1302.2
+"70","55-64 years","Black, not Hispanic","2018",1313.45
+"71","15-24 years","White, not Hispanic","2000",73.3333333333333
+"72","15-24 years","White, not Hispanic","2002-2004",76.2333333333333
+"73","15-24 years","White, not Hispanic","2005-2007",76.2333333333333
+"74","15-24 years","White, not Hispanic","2010",68.5333333333333
+"75","15-24 years","White, not Hispanic","2011-2013",65.7
+"76","15-24 years","White, not Hispanic","2014-2016",68.2
+"77","15-24 years","White, not Hispanic","2018",70
+"78","25-34 years","White, not Hispanic","2000",92.7
+"79","25-34 years","White, not Hispanic","2002-2004",97.1666666666667
+"80","25-34 years","White, not Hispanic","2005-2007",103.533333333333
+"81","25-34 years","White, not Hispanic","2010",105.133333333333
+"82","25-34 years","White, not Hispanic","2011-2013",109.933333333333
+"83","25-34 years","White, not Hispanic","2014-2016",125.533333333333
+"84","25-34 years","White, not Hispanic","2018",139.95
+"85","35-44 years","White, not Hispanic","2000",182.3
+"86","35-44 years","White, not Hispanic","2002-2004",190.4
+"87","35-44 years","White, not Hispanic","2005-2007",186.1
+"88","35-44 years","White, not Hispanic","2010",180.433333333333
+"89","35-44 years","White, not Hispanic","2011-2013",180.166666666667
+"90","35-44 years","White, not Hispanic","2014-2016",194.566666666667
+"91","35-44 years","White, not Hispanic","2018",208.5
+"92","45-54 years","White, not Hispanic","2000",388.6
+"93","45-54 years","White, not Hispanic","2002-2004",401.766666666667
+"94","45-54 years","White, not Hispanic","2005-2007",407.166666666667
+"95","45-54 years","White, not Hispanic","2010",411.066666666667
+"96","45-54 years","White, not Hispanic","2011-2013",413.566666666667
+"97","45-54 years","White, not Hispanic","2014-2016",418.733333333333
+"98","45-54 years","White, not Hispanic","2018",413.5
+"99","55-64 years","White, not Hispanic","2000",946.833333333333
+"100","55-64 years","White, not Hispanic","2002-2004",892.733333333333
+"101","55-64 years","White, not Hispanic","2005-2007",854.133333333333
+"102","55-64 years","White, not Hispanic","2010",839.333333333333
+"103","55-64 years","White, not Hispanic","2011-2013",843.2
+"104","55-64 years","White, not Hispanic","2014-2016",872.233333333333
+"105","55-64 years","White, not Hispanic","2018",887.65

@@ -1,0 +1,155 @@
+"","Age.Group","Geography","Year","Rate"
+"1","< 1 year","Metro New Orleans","1999-2001",819.433333333333
+"2","< 1 year","Metro New Orleans","2002-2004",1010.66666666667
+"3","< 1 year","Metro New Orleans","2005-2007",895.4
+"4","< 1 year","Metro New Orleans","2008-2010",709.233333333333
+"5","< 1 year","Metro New Orleans","2011-2013",772.366666666667
+"6","< 1 year","Metro New Orleans","2014-2016",654.7
+"7","< 1 year","Metro New Orleans","2017-2018",573.2
+"8","1-4 years","Metro New Orleans","1999-2001",48.1
+"9","1-4 years","Metro New Orleans","2002-2004",38.8
+"10","1-4 years","Metro New Orleans","2005-2007",40.1333333333333
+"11","1-4 years","Metro New Orleans","2008-2010",NA
+"12","1-4 years","Metro New Orleans","2011-2013",NA
+"13","1-4 years","Metro New Orleans","2014-2016",41.7333333333333
+"14","1-4 years","Metro New Orleans","2017-2018",34.5
+"15","5-14 years","Metro New Orleans","1999-2001",23.2
+"16","5-14 years","Metro New Orleans","2002-2004",24.1333333333333
+"17","5-14 years","Metro New Orleans","2005-2007",24.6666666666667
+"18","5-14 years","Metro New Orleans","2008-2010",20.1
+"19","5-14 years","Metro New Orleans","2011-2013",NA
+"20","5-14 years","Metro New Orleans","2014-2016",16.6666666666667
+"21","5-14 years","Metro New Orleans","2017-2018",16.55
+"22","15-24 years","Metro New Orleans","1999-2001",128.433333333333
+"23","15-24 years","Metro New Orleans","2002-2004",153.866666666667
+"24","15-24 years","Metro New Orleans","2005-2007",165.033333333333
+"25","15-24 years","Metro New Orleans","2008-2010",135.466666666667
+"26","15-24 years","Metro New Orleans","2011-2013",131.366666666667
+"27","15-24 years","Metro New Orleans","2014-2016",112.733333333333
+"28","15-24 years","Metro New Orleans","2017-2018",116.9
+"29","25-34 years","Metro New Orleans","1999-2001",181.266666666667
+"30","25-34 years","Metro New Orleans","2002-2004",211.933333333333
+"31","25-34 years","Metro New Orleans","2005-2007",227.866666666667
+"32","25-34 years","Metro New Orleans","2008-2010",169.2
+"33","25-34 years","Metro New Orleans","2011-2013",171.866666666667
+"34","25-34 years","Metro New Orleans","2014-2016",178.5
+"35","25-34 years","Metro New Orleans","2017-2018",189.6
+"36","35-44 years","Metro New Orleans","1999-2001",294.366666666667
+"37","35-44 years","Metro New Orleans","2002-2004",300.066666666667
+"38","35-44 years","Metro New Orleans","2005-2007",303.9
+"39","35-44 years","Metro New Orleans","2008-2010",246.9
+"40","35-44 years","Metro New Orleans","2011-2013",247.933333333333
+"41","35-44 years","Metro New Orleans","2014-2016",254.1
+"42","35-44 years","Metro New Orleans","2017-2018",293.1
+"43","45-54 years","Metro New Orleans","1999-2001",577.4
+"44","45-54 years","Metro New Orleans","2002-2004",589.1
+"45","45-54 years","Metro New Orleans","2005-2007",570.6
+"46","45-54 years","Metro New Orleans","2008-2010",524
+"47","45-54 years","Metro New Orleans","2011-2013",507.766666666667
+"48","45-54 years","Metro New Orleans","2014-2016",507.933333333333
+"49","45-54 years","Metro New Orleans","2017-2018",491.7
+"50","55-64 years","Metro New Orleans","1999-2001",1282.93333333333
+"51","55-64 years","Metro New Orleans","2002-2004",1182.83333333333
+"52","55-64 years","Metro New Orleans","2005-2007",1104.76666666667
+"53","55-64 years","Metro New Orleans","2008-2010",1007.4
+"54","55-64 years","Metro New Orleans","2011-2013",1010.03333333333
+"55","55-64 years","Metro New Orleans","2014-2016",1029.53333333333
+"56","55-64 years","Metro New Orleans","2017-2018",1018.7
+"57","65-74 years","Metro New Orleans","1999-2001",2884.36666666667
+"58","65-74 years","Metro New Orleans","2002-2004",2725.5
+"59","65-74 years","Metro New Orleans","2005-2007",2424.03333333333
+"60","65-74 years","Metro New Orleans","2008-2010",2239.56666666667
+"61","65-74 years","Metro New Orleans","2011-2013",2046.5
+"62","65-74 years","Metro New Orleans","2014-2016",1954.03333333333
+"63","65-74 years","Metro New Orleans","2017-2018",1969.75
+"64","75-84 years","Metro New Orleans","1999-2001",6208.16666666667
+"65","75-84 years","Metro New Orleans","2002-2004",6053.06666666667
+"66","75-84 years","Metro New Orleans","2005-2007",5832.23333333333
+"67","75-84 years","Metro New Orleans","2008-2010",5394
+"68","75-84 years","Metro New Orleans","2011-2013",5075.43333333333
+"69","75-84 years","Metro New Orleans","2014-2016",4757.7
+"70","75-84 years","Metro New Orleans","2017-2018",4703.8
+"71","85+ years","Metro New Orleans","1999-2001",16221.5666666667
+"72","85+ years","Metro New Orleans","2002-2004",16147.0333333333
+"73","85+ years","Metro New Orleans","2005-2007",15002.0333333333
+"74","85+ years","Metro New Orleans","2008-2010",13939.9666666667
+"75","85+ years","Metro New Orleans","2011-2013",13929.1
+"76","85+ years","Metro New Orleans","2014-2016",13217.1666666667
+"77","85+ years","Metro New Orleans","2017-2018",13460.95
+"78","< 1 year","United States","1999-2001",719.9
+"79","< 1 year","United States","2002-2004",703.433333333333
+"80","< 1 year","United States","2005-2007",706.166666666667
+"81","< 1 year","United States","2008-2010",654
+"82","< 1 year","United States","2011-2013",598.033333333333
+"83","< 1 year","United States","2014-2016",587
+"84","< 1 year","United States","2017-2018",562.4
+"85","1-4 years","United States","1999-2001",33.3333333333333
+"86","1-4 years","United States","2002-2004",31.1666666666667
+"87","1-4 years","United States","2005-2007",29.4666666666667
+"88","1-4 years","United States","2008-2010",27.7333333333333
+"89","1-4 years","United States","2011-2013",26.0333333333333
+"90","1-4 years","United States","2014-2016",24.7333333333333
+"91","1-4 years","United States","2017-2018",24.15
+"92","5-14 years","United States","1999-2001",17.9333333333333
+"93","5-14 years","United States","2002-2004",17
+"94","5-14 years","United States","2005-2007",15.5666666666667
+"95","5-14 years","United States","2008-2010",13.5333333333333
+"96","5-14 years","United States","2011-2013",12.9333333333333
+"97","5-14 years","United States","2014-2016",13.1
+"98","5-14 years","United States","2017-2018",13.45
+"99","15-24 years","United States","1999-2001",79.8
+"100","15-24 years","United States","2002-2004",80.5666666666667
+"101","15-24 years","United States","2005-2007",80.3
+"102","15-24 years","United States","2008-2010",70.5666666666667
+"103","15-24 years","United States","2011-2013",66.3
+"104","15-24 years","United States","2014-2016",69.9666666666667
+"105","15-24 years","United States","2017-2018",72.1
+"106","25-34 years","United States","1999-2001",103.066666666667
+"107","25-34 years","United States","2002-2004",104.8
+"108","25-34 years","United States","2005-2007",107.666666666667
+"109","25-34 years","United States","2008-2010",104.133333333333
+"110","25-34 years","United States","2011-2013",105.4
+"111","25-34 years","United States","2014-2016",118.033333333333
+"112","25-34 years","United States","2017-2018",130.8
+"113","35-44 years","United States","1999-2001",200.133333333333
+"114","35-44 years","United States","2002-2004",200.566666666667
+"115","35-44 years","United States","2005-2007",190.966666666667
+"116","35-44 years","United States","2008-2010",177.166666666667
+"117","35-44 years","United States","2011-2013",171.566666666667
+"118","35-44 years","United States","2014-2016",182.5
+"119","35-44 years","United States","2017-2018",194.95
+"120","45-54 years","United States","1999-2001",423.5
+"121","45-54 years","United States","2002-2004",430.3
+"122","45-54 years","United States","2005-2007",426.566666666667
+"123","45-54 years","United States","2008-2010",414.933333333333
+"124","45-54 years","United States","2011-2013",407.1
+"125","45-54 years","United States","2014-2016",404.766666666667
+"126","45-54 years","United States","2017-2018",398.7
+"127","55-64 years","United States","1999-2001",989.9
+"128","55-64 years","United States","2002-2004",929.733333333333
+"129","55-64 years","United States","2005-2007",882.166666666667
+"130","55-64 years","United States","2008-2010",858.566666666667
+"131","55-64 years","United States","2011-2013",854.533333333333
+"132","55-64 years","United States","2014-2016",876.466666666667
+"133","55-64 years","United States","2017-2018",886.25
+"134","65-74 years","United States","1999-2001",2400.2
+"135","65-74 years","United States","2002-2004",2225.43333333333
+"136","65-74 years","United States","2005-2007",2039.03333333333
+"137","65-74 years","United States","2008-2010",1907.4
+"138","65-74 years","United States","2011-2013",1816.93333333333
+"139","65-74 years","United States","2014-2016",1790.56666666667
+"140","65-74 years","United States","2017-2018",1787.1
+"141","75-84 years","United States","1999-2001",5651.56666666667
+"142","75-84 years","United States","2002-2004",5420.83333333333
+"143","75-84 years","United States","2005-2007",5111.66666666667
+"144","75-84 years","United States","2008-2010",4869.5
+"145","75-84 years","United States","2011-2013",4691.86666666667
+"146","75-84 years","United States","2014-2016",4539.4
+"147","75-84 years","United States","2017-2018",4429.35
+"148","85+ years","United States","1999-2001",15503.8666666667
+"149","85+ years","United States","2002-2004",15256.1666666667
+"150","85+ years","United States","2005-2007",14523.3333333333
+"151","85+ years","United States","2008-2010",13975.6
+"152","85+ years","United States","2011-2013",13706.1
+"153","85+ years","United States","2014-2016",13491.3
+"154","85+ years","United States","2017-2018",13512.15

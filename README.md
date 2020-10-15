@@ -20,13 +20,13 @@ We provide R code to replicate the analysis below in the hopes that it might be 
 
 *Placing Prosperity* focuses on New Orleans and its 8-parish metro area. Anyone wishing to replicate the analysis for another region would have to use the relevant FIPS codes. 
 
-These R scripts are used to import, clean, and combine data sets.
+These R scripts are used to import, clean, and combine data sets. They should be run in order before conducting the analysis.
 
 - 01_libraries and load data.R -- Loads R packages and imports data, either locally from the inputs folder or via API.
 - 02_graphics themes.R -- Loads a set of colors, fonts, and ggplot templates used at The Data Center. DELETE?
 - 03_cleaning and analysis.R -- Performs additional cleaning of data sets
 
-These R scripts are used to conduct the analysis. The scripts generally use ggplot to make charts and to export CSV files to the **outputs** folder. Each script corresponds with a chapter in the final report. These CSV files are then used to generate interactive graphics for the final project web site. 
+With the data loaded, the following R scripts are used to conduct the analysis. The scripts generally use ggplot to make charts and to export CSV files to the **outputs** folder. Each script corresponds with a chapter in the final report. These CSV files are then used to generate interactive graphics for the final project web site. 
 
 - chapter 1 graphics.R
 - chapter 2 graphics.R

@@ -1,10 +1,10 @@
 # placing-prosperity-USALEEP
 
-This is a repo for replicating the analysis in [Placing Prosperity: Neighborhoods and Life Expectancy in the New Orleans Metro](https://www.datacenterresearch.org/reports_analysis/placing-prosperity/). A brief description of the project and instructions for replicating the analysis are below. 
+This repo details the analysis in [Placing Prosperity: Neighborhoods and Life Expectancy in the New Orleans Metro](https://www.datacenterresearch.org/reports_analysis/placing-prosperity/). A brief description of the project and instructions for replicating the analysis are below. This repo is chiefly provided to inform those wishing to use USALEEP data on life expectancy at the census tract level or those wishing to adapt portions of The Data Center's analysis to other settings. 
 
 ### About Placing Prosperity
 
-Using a national source of data on life expectancy at the neighborhood level as a starting point, this report examines the role of place in shaping shared prosperity in the New Orleans region. Taking data on life expectancy at the neighborhood level as a "snapshot" of pre-pandemic health inequality, this three-part series of data briefs explores the causes and consequences of neighborhood differences in health and well-being over the life course. The analysis reveals how an uneven landscape of investment and socioeconomic opportunity shapes life expectancy, and shows that neighborhood inequality remains inextricable from racial inequality. Please read the [three-part interactive report] to learn more about the project.
+Using a national source of data on life expectancy at the neighborhood level as a starting point, this report examines the role of place in shaping shared prosperity in the New Orleans region. Taking data on life expectancy at the neighborhood level as a "snapshot" of pre-pandemic health inequality, *Placing Prosperity* is three-part series of data briefs that explores the causes and consequences of neighborhood differences in health and well-being over the life course. The analysis reveals how an uneven landscape of investment and socioeconomic opportunity shapes life expectancy, and shows that neighborhood inequality remains inextricable from racial inequality. Please read the [three-part interactive report] to learn more about the project and to see the findings.
 
 Here is a description of the life expectancy data that motivated the analysis:
 > The United States Small-Area Life Expectancy Estimates Project (USALEEP) is the first public health outcome measure available nationwide at the census tract level—measuring life expectancy at birth for nearly every census tract in the country. A joint effort of The Robert Wood Johnson Foundation, National Association for Public Health Statistics and Information Systems (NAPHSIS), and the National Center for Health Statistics (NCHS) at the Centers for Disease Control (CDC), USALEEP data provide unparalleled insights into
@@ -26,7 +26,7 @@ These R scripts are used to import, clean, and combine data sets.
 - 02_graphics themes.R -- Loads a set of colors, fonts, and ggplot templates used at The Data Center. DELETE?
 - 03_cleaning and analysis.R -- Performs additional cleaning of data sets
 
-These R scripts are used to export CSV files. Each script corresponds with a chapter in the final report. These CSV files are then used to generate graphics. 
+These R scripts are used to export CSV files to the **outputs** folder. Each script corresponds with a chapter in the final report. These CSV files are then used to generate graphics. 
 
 - chapter 1 graphics.R
 - chapter 2 graphics.R
@@ -44,5 +44,7 @@ Briefly, the following main sources are used:
 - Opportunity Atlas for income mobility by census tract
 - American Community Survey for tract demographics, education, and income and poverty, with additional historical census tract-level estimates from Geolytics.
 - CDC WONDER for parish-level mortality trends
+
+Source data sets can be found in the **inputs** folder.
 
 In order to replicate chapter 1's mortality trends for another location, data will have to be sourced from CDC WONDER. In order to replicate the historical analysis of neighborhood change in chapter 2 for another location, neighborhood boundaries and geographically harmonized census estimates would have to be sourced.

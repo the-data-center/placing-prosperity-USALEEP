@@ -1,6 +1,6 @@
 # placing-prosperity-USALEEP
 
-This repo details the analysis in [Placing Prosperity: Neighborhoods and Life Expectancy in the New Orleans Metro](https://www.datacenterresearch.org/reports_analysis/placing-prosperity/). A brief description of the project and instructions for replicating the analysis are below. This repo is chiefly provided to inform those wishing to use USALEEP data on life expectancy at the census tract level or those wishing to adapt portions of The Data Center's analysis to other settings. 
+This repo provides R scripts to replicate the analysis in [Placing Prosperity: Neighborhoods and Life Expectancy in the New Orleans Metro](https://www.datacenterresearch.org/reports_analysis/placing-prosperity/). A brief description of the project and instructions for replicating the analysis are below. This repo is chiefly provided to inform those wishing to use USALEEP data on life expectancy at the census tract level or those wishing to adapt portions of The Data Center's analysis to other settings. 
 
 ### About Placing Prosperity
 
@@ -26,7 +26,7 @@ These R scripts are used to import, clean, and combine data sets.
 - 02_graphics themes.R -- Loads a set of colors, fonts, and ggplot templates used at The Data Center. DELETE?
 - 03_cleaning and analysis.R -- Performs additional cleaning of data sets
 
-These R scripts are used to export CSV files to the **outputs** folder. Each script corresponds with a chapter in the final report. These CSV files are then used to generate graphics. 
+These R scripts are used to conduct the analysis. The scripts generally use ggplot to make charts and to export CSV files to the **outputs** folder. Each script corresponds with a chapter in the final report. These CSV files are then used to generate interactive graphics for the final project web site. 
 
 - chapter 1 graphics.R
 - chapter 2 graphics.R
@@ -40,8 +40,8 @@ Each of the data sets used in this project is described on the project [methdolo
 
 Briefly, the following main sources are used:
 
-- USALEEP for life expectancy by census tract
-- Opportunity Atlas for income mobility by census tract
+- [USALEEP](https://www.cdc.gov/nchs/nvss/usaleep/usaleep.html) for life expectancy by census tract
+- [Opportunity Atlas](https://opportunityinsights.org/data/?geographic_level=0&topic=0&paper_id=1652#resource-listing) for income mobility by census tract
 - American Community Survey for tract demographics, education, and income and poverty, with additional historical census tract-level estimates from Geolytics.
 - CDC WONDER for parish-level mortality trends
 

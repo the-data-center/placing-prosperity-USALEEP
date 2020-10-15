@@ -32,7 +32,7 @@ These R scripts are used to conduct the analysis. The scripts generally use ggpl
 - chapter 2 graphics.R
 - chapter 3 graphics.R
 
-The final interactive graphics on the website were produced with code in a [separate repo]().
+The final interactive graphics on the website were produced with separate charting libraries.
 
 #### Data sets
 

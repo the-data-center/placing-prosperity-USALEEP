@@ -1,6 +1,6 @@
 # placing-prosperity-USALEEP
 
-This repo details the analysis in [Placing Prosperity: Neighborhoods and Life Expectancy in the New Orleans Metro](https://www.datacenterresearch.org/reports_analysis/placing-prosperity/). A brief description of the project and instructions for replicating the analysis are below. This repo is chiefly provided to inform those wishing to use USALEEP data on life expectancy at the census tract level or those wishing to adapt portions of The Data Center's analysis to other settings. 
+This repo provides R scripts to replicate the analysis in [Placing Prosperity: Neighborhoods and Life Expectancy in the New Orleans Metro](https://www.datacenterresearch.org/reports_analysis/placing-prosperity/). A brief description of the project and instructions for replicating the analysis are below. This repo is chiefly provided to inform those wishing to use USALEEP data on life expectancy at the census tract level or those wishing to adapt portions of The Data Center's analysis to other settings. 
 
 ### About Placing Prosperity
 

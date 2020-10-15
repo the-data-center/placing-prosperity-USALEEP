@@ -26,7 +26,7 @@ These R scripts are used to import, clean, and combine data sets.
 - 02_graphics themes.R -- Loads a set of colors, fonts, and ggplot templates used at The Data Center. DELETE?
 - 03_cleaning and analysis.R -- Performs additional cleaning of data sets
 
-These R scripts are used to export CSV files to the **outputs** folder. Each script corresponds with a chapter in the final report. These CSV files are then used to generate graphics. 
+These R scripts are used to conduct the analysis. The scripts generally use ggplot to make charts and to export CSV files to the **outputs** folder. Each script corresponds with a chapter in the final report. These CSV files are then used to generate interactive graphics for the final project web site. 
 
 - chapter 1 graphics.R
 - chapter 2 graphics.R

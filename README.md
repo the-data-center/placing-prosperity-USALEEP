@@ -40,8 +40,8 @@ Each of the data sets used in this project is described on the project [methdolo
 
 Briefly, the following main sources are used:
 
-- USALEEP for life expectancy by census tract
-- Opportunity Atlas for income mobility by census tract
+- [USALEEP](https://www.cdc.gov/nchs/nvss/usaleep/usaleep.html) for life expectancy by census tract
+- [Opportunity Atlas](https://opportunityinsights.org/data/?geographic_level=0&topic=0&paper_id=1652#resource-listing) for income mobility by census tract
 - American Community Survey for tract demographics, education, and income and poverty, with additional historical census tract-level estimates from Geolytics.
 - CDC WONDER for parish-level mortality trends
 

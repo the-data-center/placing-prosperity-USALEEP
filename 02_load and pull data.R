@@ -114,24 +114,26 @@ incomebuckets1990raw <- read.csv("inputs/Sampson/incomebuckets1990.csv")
 incomebuckets2000raw <- read.csv("inputs/Sampson/incomebuckets2000.csv")
 incomebuckets2010raw <- read.csv("inputs/Sampson/incomebuckets2010.csv")
 
+###
 #### PULL DATA ####
+###
+
 #### USALEEP data ####
-## download tusing this link and store locally: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NVSS/USALEEP/CSV/US_B.CSV
+## download using this link and store locally: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NVSS/USALEEP/CSV/US_B.CSV
+
 #LEusbRaw <- ## your local USALEEP file ##
 LEusb <- LEusbRaw %>%
-  dplyr::select(-ValidFrom, -ValidTo) %>%
-  mutate(
-    ageGrp = AgeGroup,
-    probDeath = as.numeric(ProbDyingInRange),
-    numSurv = as.numeric(SurvivingToGroup),
-    numDying = as.numeric(DyingInRange),
-    personYrs = as.numeric(PersonYearsLivedInRange),
-    personYrsAbove = as.numeric(TotalYearsLivedAboveGroup),
-    LE_x = as.numeric(LifeExpectancyAtRange),
-    LE_SE_probDeath = as.numeric(ProbDyingInRangeSE),
-    LE_SE_x = as.numeric(LifeExpectancyAtRangeSE),
-    GEOID = str_pad(TractID, 11, pad="0")) %>%
-  dplyr::select(-AgeGroup,-ProbDyingInRange,-SurvivingToGroup,-DyingInRange,-PersonYearsLivedInRange,-TotalYearsLivedAboveGroup,-LifeExpectancyAtRange,-ProbDyingInRangeSE,-LifeExpectancyAtRangeSE)
+  rename(ageGrp = Age.Group,
+         probDeath = nq.x.,
+         numSurv = l.x.,
+         numDying = nd.x.,
+         personYrs = nL.x.,
+         personYrsAbove = T.x.,
+         LE_x = e.x.,
+         LE_SE_probDeath = se.nq.x..,
+         LE_SE_x = se.e.x..,
+         GEOID = Tract.ID) %>%
+  dplyr::select(-contains('2KX')) 
 
 LEusbLA <- LEusb %>%
   filter(str_sub(GEOID,1,2)=="22")
@@ -224,6 +226,73 @@ alldata <- LEusb %>%
   left_join(., OpAtlas.tract_covariates, by=c("GEOID")) %>%
   left_join(., OpAtlas.tract_outcomes_simple, by=c("GEOID")) %>%
   left_join(., acs, by=c("GEOID"))
+
+#### AGGREGATING LE ####
+
+### LA
+
+popLA10 <- get_decennial(geography = "tract", 
+                         variables = c("P001001"),
+                         state = c("LA"))
+
+popLA15 <- get_acs(geography = "tract",
+                   year = 2015,
+                   variables = c("B01003_001"), 
+                   state = c("LA"),
+                   survey = "acs5")
+popLA <- left_join(popLA10, popLA15, by = "GEOID") %>%
+  rename(pop10 = value, pop15 = estimate) %>%
+  dplyr::select(-NAME.x, -NAME.y, -variable.x, -variable.y) %>%
+  mutate(popPooled = pop10 + pop15)
+
+### US
+
+us <- unique(fips_codes$state)[1:51]
+
+pop10 <- map_df(us, function(x) {
+  get_decennial(geography = "tract", variables = "P001001", 
+                state = x)
+})
+
+pop15 <- map_df(us, function(x) {
+  get_acs(geography = "tract",
+          year = 2015,
+          variables = "B01003_001", 
+          state = x,
+          survey = "acs5")
+})
+
+
+metropop15 <-   get_acs(geography = "metropolitan statistical area/micropolitan statistical area",
+                        year = 2015,
+                        variables = "B01003_001",
+                        survey = "acs5") %>%
+  filter(grepl("Metro Area", NAME)) %>%
+  filter(estimate > 1000000) %>%
+  mutate(NAME = str_sub(NAME, 1,-12))
+
+#### PROBABLILITY OF DEATH ####
+
+### Population data
+age2000.vars <-c("P001001","P012003","P012004","P012005","P012006","P012007","P012008","P012009","P012010","P012011","P012012","P012013","P012014","P012015","P012016","P012017","P012018","P012019","P012020","P012021","P012022","P012023","P012024","P012025","P012027","P012028","P012029","P012030","P012031","P012032","P012033","P012034","P012035","P012036","P012037","P012038","P012039","P012040","P012041","P012042","P012043","P012044","P012045","P012046","P012047","P012048","P012049")
+age2000.names <-c("pop","m_under5","m5_9","m10_14","m15_17","m18_19","m20","m21","m22_24","m25_29","m30_34","m35_39","m40_44","m45_49","m50_54","m55_59","m60_61","m62_64","m65_66","m67_69","m70_74","m75_79","m80_84","m85over","f_under5","f5_9","f10_14","f15_17","f18_19","f20","f21","f22_24","f25_29","f30_34","f35_39","f40_44","f45_49","f50_54","f55_59","f60_61","f62_64","f65_66","f67_69","f70_74","f75_79","f80_84","f85over")
+
+popLA10Raw <- get_decennial(geography = "tract", 
+                            variables = age2000.vars,
+                            state = c("LA"))
+
+
+age.vars <-c("B01003_001E", "B01003_001M","B01001_003E","B01001_004E","B01001_005E","B01001_006E","B01001_007E","B01001_008E","B01001_009E","B01001_010E","B01001_011E","B01001_012E","B01001_013E","B01001_014E","B01001_015E","B01001_016E","B01001_017E","B01001_018E","B01001_019E","B01001_020E","B01001_021E","B01001_022E","B01001_023E","B01001_024E","B01001_025E","B01001_027E","B01001_028E","B01001_029E","B01001_030E","B01001_031E","B01001_032E","B01001_033E","B01001_034E","B01001_035E","B01001_036E","B01001_037E","B01001_038E","B01001_039E","B01001_040E","B01001_041E","B01001_042E","B01001_043E","B01001_044E","B01001_045E","B01001_046E","B01001_047E","B01001_048E","B01001_049E","B01001_003M","B01001_004M","B01001_005M","B01001_006M","B01001_007M","B01001_008M","B01001_009M","B01001_010M","B01001_011M","B01001_012M","B01001_013M","B01001_014M","B01001_015M","B01001_016M","B01001_017M","B01001_018M","B01001_019M","B01001_020M","B01001_021M","B01001_022M","B01001_023M","B01001_024M","B01001_025M","B01001_027M","B01001_028M","B01001_029M","B01001_030M","B01001_031M","B01001_032M","B01001_033M","B01001_034M","B01001_035M","B01001_036M","B01001_037M","B01001_038M","B01001_039M","B01001_040M","B01001_041M","B01001_042M","B01001_043M","B01001_044M","B01001_045M","B01001_046M","B01001_047M","B01001_048M","B01001_049M")
+age.names <-c("pop", "popMOE", "m_under5","m5_9","m10_14","m15_17","m18_19","m20","m21","m22_24","m25_29","m30_34","m35_39","m40_44","m45_49","m50_54","m55_59","m60_61","m62_64","m65_66","m67_69","m70_74","m75_79","m80_84","m85over","f_under5","f5_9","f10_14","f15_17","f18_19","f20","f21","f22_24","f25_29","f30_34","f35_39","f40_44","f45_49","f50_54","f55_59","f60_61","f62_64","f65_66","f67_69","f70_74","f75_79","f80_84","f85over","m_under5MOE","m5_9MOE","m10_14MOE","m15_17MOE","m18_19MOE","m20MOE","m21MOE","m22_24MOE","m25_29MOE","m30_34MOE","m35_39MOE","m40_44MOE","m45_49MOE","m50_54MOE","m55_59MOE","m60_61MOE","m62_64MOE","m65_66MOE","m67_69MOE","m70_74MOE","m75_79MOE","m80_84MOE","m85overMOE","f_under5MOE","f5_9MOE","f10_14MOE","f15_17MOE","f18_19MOE","f20MOE","f21MOE","f22_24MOE","f25_29MOE","f30_34MOE","f35_39MOE","f40_44MOE","f45_49MOE","f50_54MOE","f55_59MOE","f60_61MOE","f62_64MOE","f65_66MOE","f67_69MOE","f70_74MOE","f75_79MOE","f80_84MOE","f85overMOE")
+age.names.short <-c("m_under5","m5_9","m10_14","m15_17","m18_19","m20","m21","m22_24","m25_29","m30_34","m35_39","m40_44","m45_49","m50_54","m55_59","m60_61","m62_64","m65_66","m67_69","m70_74","m75_79","m80_84","m85over","f_under5","f5_9","f10_14","f15_17","f18_19","f20","f21","f22_24","f25_29","f30_34","f35_39","f40_44","f45_49","f50_54","f55_59","f60_61","f62_64","f65_66","f67_69","f70_74","f75_79","f80_84","f85over", "pop")
+popLA15Raw <- get_acs(geography = "tract",
+                      year = 2015,
+                      variables = c(age.vars),
+                      state = c("LA"),
+                      survey = "acs5")
+
+
+
 
 
 

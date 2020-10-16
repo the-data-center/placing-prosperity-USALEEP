@@ -52,7 +52,7 @@ load("inputs/usProbDeathagg.Rdata")
 
 
 
-### Chapter 1 RW
+### Chapter 1 mortality
 ###For Deaths of Despair graphics
 
 
@@ -98,7 +98,7 @@ AllgeoMortraw <- read.csv("inputs/Mortality/MortalityMetrro.txt", sep="\t") #Thi
 
 
 
-### Chapter 2 RW
+### Chapter 2 historical census
 
 black1970_2010 <- read.dbf("inputs/Sampson/popblack1970_2010.dbf")
 NOLAcrosswalk<- read.csv("inputs/Crosswalk2010full.csv") %>% 
@@ -277,4 +277,52 @@ incomebuckets2017raw <- np.pull(variables = incDist.vars, names = incDist.names)
 #               'black2017',
 #               'pov2017',
 #               'incomebuckets2017raw'), file ="dataPull_data.Rdata")
+
+#### Ch 3 additional Opportunity Atlas data
+
+# Full tract outcomes for GNO MSA
+temp <- tempfile()
+download.file("https://opportunityinsights.org/wp-content/uploads/2018/10/tract_outcomes.zip",temp)
+unzip(temp, exdir = paste0(getwd(),"/inputs/opinsights"))
+unlink(temp)
+OpAtlas.tract_outcomes_full <- read_csv("inputs/opinsights/tract_outcomes_early.csv",
+                                        col_types = cols(county = col_character(), 
+                                                         cz = col_character(), state = col_character(), 
+                                                         tract = col_character())) %>% 
+  mutate(state = str_pad(state,2, pad="0"),
+         county = str_pad(county,3, pad= "0"),
+         tract = str_pad(tract,6, pad="0"),
+         GEOID = paste0(state, county, tract))
+
+OpAtlas.tract_outcomes_full.GNO <- OpAtlas.tract_outcomes_full %>% 
+  filter(state == "22") %>% 
+  filter(county %in% c("051", "071", "075", "087", "089", "093", "095", "103"))
+
+rm(OpAtlas.tract_outcomes_full)
+
+# Income crosswalk
+Op.atlas.pctinccrosswalk <- read_csv("https://opportunityinsights.org/wp-content/uploads/2018/10/pctile_to_dollar_cw.csv")
+
+# Communiting zone outcomes
+OpAtlas.CZ_outcomes_simple <- read_csv("https://opportunityinsights.org/wp-content/uploads/2018/10/cz_outcomes_simple.csv")
+OpAtlas.CZ_outcomes_full <- read_csv("https://opportunityinsights.org/wp-content/uploads/2018/10/cz_outcomes.csv")
+
+
+# Combine tract OpAtlas with life expectancy. 
+OpAtlas.tract_outcomes_simple_LE.GNO <- OpAtlas.tract_outcomes_simple %>% 
+  filter(state == "22") %>% 
+  filter(county %in% c("051", "071", "075", "087", "089", "093", "095", "103")) %>% 
+  #full_join(LE.GNO, by=c("GEOID"="GEOID"))
+  full_join(LE.GNO, by=c("GEOID"="GEOID"))
+
+
+
+## Save to Rdata
+# 
+# save(list = c('OpAtlas.tract_outcomes_simple_LE.GNO',
+#               'Op.atlas.pctinccrosswalk',
+#               'OpAtlas.tract_outcomes_full.GNO',
+#               'OpAtlas.CZ_outcomes_simple',
+#               'OpAtlas.CZ_outcomes_full'), file = "Ch3OpAtlas_data.Rdata")
+
 

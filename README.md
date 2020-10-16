@@ -18,21 +18,21 @@ We provide R code to replicate the analysis below in the hopes that it might be 
 
 ### Instructions for replication
 
-*Placing Prosperity* focuses on New Orleans and its 8-parish metro area. Anyone wishing to replicate the analysis for another region would have to use the relevant FIPS codes. 
+*Placing Prosperity* focuses on New Orleans and its 8-parish metro area. Anyone wishing to replicate the analysis for another region would have to use the relevant FIPS codes. Downloading some of the data requires a [census API key](https://www.census.gov/data/developers/guidance/api-user-guide.html). 
 
 These R scripts are used to import, clean, and combine data sets. They should be run in order before conducting the analysis.
 
-- 01_libraries and load data.R -- Loads R packages and imports data, either locally from the inputs folder or via API.
-- 02_graphics themes.R -- Loads a set of colors, fonts, and ggplot templates used at The Data Center. DELETE?
-- 03_cleaning and analysis.R -- Performs additional cleaning of data sets
+- 01_libraries.R -- Loads R packages and sets the user's API key.
+- 02_load and pull data.R -- Loads data from the web, from the census API, and from the local "inputs" folder
+- 03_cleaning and analysis.R -- Performs additional cleaning and analysis to prep the data sets
+- graphics themes.R -- Loads a set of colors, fonts, and ggplot templates to match The Data Center's brand and design style. 
 
-With the data loaded, the following R scripts are used to conduct the analysis. The scripts generally use ggplot to make charts and to export CSV files to the **outputs** folder. Each script corresponds with a chapter in the final report. These CSV files are then used to generate interactive graphics for the final project web site. 
+With the data loaded, the following R scripts are used to conduct the analysis. The scripts generally use ggplot to make charts and to export CSV files to the **outputs** folder. Each script corresponds with a chapter in the final report. The scripts were first used to generate draft versions of the charts using ggplot, and the interactive graphics on the final project web site were developed using the CSVs. 
 
 - chapter 1 graphics.R
 - chapter 2 graphics.R
 - chapter 3 graphics.R
 
-The final interactive graphics on the website were produced with separate charting libraries.
 
 #### Data sets
 

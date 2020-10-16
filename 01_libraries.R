@@ -7,7 +7,6 @@ library(here)
 library(rmarkdown)
 
 library(tidycensus)
-census_api_key("530ce361defc2c476e5b5d5626d224d8354b9b9a")
 
 library(RODBC)
 
@@ -31,3 +30,6 @@ library(foreign)
 library(censusapi)
 library(ggrepel)
 
+#Put your census API key here
+myCensusAPIkey <- "A string with a valid census API key"
+census_api_key(myCensusAPIkey)

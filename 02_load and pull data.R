@@ -140,18 +140,29 @@ LEusbLA <- LEusb %>%
 
 #### Opportunity Atlas data ####
 
-OpAtlas.tract_outcomes_simple <- ## your local file ##
+temp <- tempfile()
+download.file("https://opportunityinsights.org/wp-content/uploads/2018/10/tract_outcomes.zip",temp)
+unzip(temp, exdir = paste0(getwd(),"/inputs/opinsights"))
+unlink(temp)
+OpAtlas.tract_outcomes <- read_csv("inputs/opinsights/tract_outcomes_simple.csv",
+                                        col_types = cols(county = col_character(), 
+                                                         cz = col_character(), state = col_character(), 
+                                                         tract = col_character())) %>% 
   mutate(state = str_pad(state,2, pad="0"),
          county = str_pad(county,3, pad= "0"),
          tract = str_pad(tract,6, pad="0"),
          GEOID = paste0(state, county, tract))
 
-OpAtlas.tract_covariates <- ## your local file ##
+OpAtlas.tract_covariates <- read_csv("inputs/opinsights/tract_outcomes_simple.csv",
+                                   col_types = cols(county = col_character(), 
+                                                    cz = col_character(), state = col_character(), 
+                                                    tract = col_character())) %>% 
   mutate(state = str_pad(state,2, pad="0"),
          county = str_pad(county,3, pad= "0"),
          tract = str_pad(tract,6, pad="0"),
          GEOID = paste0(state, county, tract),
          FIPS_5 = as.numeric(paste0(state, county)))
+
 
 #### acs ####
 
